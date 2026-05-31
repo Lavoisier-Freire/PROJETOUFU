@@ -1,0 +1,37 @@
+{
+    "1": {
+        "nome": "ServidorWEB01",
+        "responsável": "Renato",
+        "setor": "TI",
+        "tipo": 1,
+        "vulnerabilidades": []
+    },
+    "2": {
+        "nome": "NotebookCarlos",
+        "responsável": "Carlos",
+        "setor": "RH",
+        "tipo": 2,
+        "vulnerabilidades": []
+    },
+    "3": {
+        "nome": "RoteadorTI",
+        "responsável": "Renata",
+        "setor": "Redes",
+        "tipo": 3,
+        "vulnerabilidades": []
+    },
+    "4": {
+        "nome": "AplicaçãoWeb",
+        "responsável": "Larissa",
+        "setor": "Desenvolvimento",
+        "tipo": 4,
+        "vulnerabilidades": []
+    },
+    "10": {
+        "nome": "FirewallPrincipal",
+        "responsável": "Lavoisier",
+        "setor": "Segurança",
+        "tipo": 3,
+        "vulnerabilidades": []
+    }
+}
