@@ -2,6 +2,8 @@ from time import sleep
 import json
 from enum import Enum
 
+# Enumeração dos tipos de ativos
+
 class TipoAtivo(Enum):
     SERVIDOR = 1
     NOTEBOOK = 2
