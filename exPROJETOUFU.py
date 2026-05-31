@@ -206,6 +206,8 @@ while escolha != 8:
         else:
             print('Ativo não encontrado!')
 
+# Cadastro e visualização de vulnerabiliades
+
     elif escolha == 5:
 
         try:
