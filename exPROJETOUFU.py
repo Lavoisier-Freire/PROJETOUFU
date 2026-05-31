@@ -22,6 +22,8 @@ def mostrar_tipo(codigo):
     else:
         return 'Tipo desconhecido'
 
+# Salva os dados dos ativos em arquivo JSON
+
 def salvar_dados():
     with open('ativos.json', 'w', encoding='utf-8') as arquivo:
         json.dump(ativos, arquivo, ensure_ascii=False, indent=4)
