@@ -23,11 +23,14 @@ Tecnologias Utilizadas:
 - Git
 - GitHub
   
-Estrutura do Projeto:
+## Estrutura do Projeto
+
+```text
 PROJETOUFU/
-├── exPROJETOUFU.py
-├── ativos.json
-├── .gitignore
+├── exPROJETOUFU.py   # Programa principal
+├── ativos.json       # Banco de dados dos ativos
+└── .gitignore        # Arquivos ignorados pelo Git
+```
 
 Tipos de Ativos:
 - Servidor
