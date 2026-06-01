@@ -36,5 +36,7 @@ Tipos de Ativos:
 - Aplicação Web
 
 Autor:
-     Lavoisier do Prado Freire
-     Graduação em Cibersegurança – Universidade Federal de Uberlândia (UFU)
+  
+   Lavoisier do Prado Freire
+     
+  Graduação em Cibersegurança – Universidade Federal de Uberlândia (UFU)
