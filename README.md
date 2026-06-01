@@ -38,7 +38,7 @@ PROJETOUFU/
 - Roteador
 - Aplicação Web
 
-  ## Requisitos Atendidos
+## Requisitos Atendidos
 - Estruturas de decisão e repetição
 - Funções
 - Dicionários e listas
