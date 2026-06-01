@@ -1,4 +1,4 @@
-# PROJETOUFU
+# PROJETO-UFU
 
 Sistema de Inventário de Ativos de TI desenvolvido em Python para a disciplina de Programação.
 
