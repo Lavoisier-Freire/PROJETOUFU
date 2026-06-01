@@ -79,18 +79,34 @@ while escolha != 8:
             sleep(2)
             continue
 
+        if id_ativo in ativos:
+            print('Este ID já existe! Cadastre outro ID.')
+            sleep(2)
+            continue
+
         nome = input('Nome do ativo: ')
         responsavel = input('Responsável: ')
         setor = input('Setor: ')
 
         print('''
-        [1] Servidor
-        [2] Notebook
-        [3] Roteador
-        [4] Aplicação Web
-        ''')
+                [1] Servidor
+                [2] Notebook
+                [3] Roteador
+                [4] Aplicação Web
+                ''')
 
-        tipo = int(input('Escolha o tipo do ativo: '))
+        try:
+            tipo = int(input('Escolha o tipo de ativo: '))
+        except:
+            print('Tipo inválido! Digite apenas números.')
+            sleep(2)
+            continue
+
+        if tipo not in [1, 2, 3, 4]:
+            print('Tipo inválido! Escolha uma opção de 1 a 4.')
+            sleep(2)
+            continue
+
 
         ativos[id_ativo] = {
             'nome': nome,
@@ -142,7 +158,7 @@ while escolha != 8:
 
             for id_ativo, dados in ativos.items():
 
-                if dados['nome'] == nome_busca:
+                if dados['nome'].lower() == nome_busca.lower():
                     print('ID:', id_ativo)
                     print('Nome:', dados['nome'])
                     print('Responsável:', dados['responsável'])
