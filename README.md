@@ -38,8 +38,9 @@ Tipos de Ativos:
 - Roteador
 - Aplicação Web
 
-Autor:
-  
-   Lavoisier do Prado Freire
-     
-  Graduação em Cibersegurança – Universidade Federal de Uberlândia (UFU)
+## Autor
+
+**Lavoisier do Prado Freire**
+
+Graduação em Cibersegurança  
+Universidade Federal de Uberlândia (UFU)
